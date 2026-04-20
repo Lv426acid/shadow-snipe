@@ -1,0 +1,8 @@
+{
+  "channels": {
+    "rockscissorspizza": {
+      "twitch_id": "YOUR_NUMERIC_TWITCH_ID",
+      "discord_webhook": "YOUR_DISCORD_WEBHOOK_URL"
+    }
+  }
+}
