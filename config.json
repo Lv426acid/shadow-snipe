@@ -1,8 +1,26 @@
 {
-  "channels": {
-    "rockscissorspizza": {
-      "twitch_id": "YOUR_NUMERIC_TWITCH_ID",
-      "discord_webhook": "YOUR_DISCORD_WEBHOOK_URL"
+  "streams": [
+    {
+      "twitch_channel": "swirlyink",
+      "twitch_id": "123456789",
+      "discord_webhooks": [
+        "https://discord.com/api/webhooks/AAA/BBB",
+        "https://discord.com/api/webhooks/CCC/DDD"
+      ]
+    },
+    {
+      "twitch_channel": "dukelas3rs",
+      "twitch_id": "987654321",
+      "discord_webhooks": [
+        "https://discord.com/api/webhooks/EEE/FFF"
+      ]
+    },
+    {
+      "twitch_channel": "yourchannel",
+      "twitch_id": "111222333",
+      "discord_webhooks": [
+        "https://discord.com/api/webhooks/GGG/HHH"
+      ]
     }
-  }
+  ]
 }
