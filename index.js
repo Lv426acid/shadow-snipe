@@ -26,6 +26,8 @@ app.get('/snipe', async (req, res) => {
         // Send to all webhooks in config
         for (const stream of config.streams) {
             for (const webhook of stream.discord_webhooks) {
+                console.log("Sending webhook to:", webhook);
+
                 await fetch(webhook, {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
